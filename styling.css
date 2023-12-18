@@ -1,4 +1,7 @@
-<style> {
+body {
+    margin: 0;
+    background: pink;
+    text-align: center; {
     .page-line-break{ max-width: 900px;}
         margin: 0 auto; 
         border-left: 1px solid rgba(0, 0, 0, 0.25); 
@@ -44,9 +47,5 @@
         margin: 5px auto; 
         max-width: 125%; } a { 
         text-decoration: none !important; } }
-    body {
-        margin: 0;
-        background: pink;
-        text-align: center;
 
-} <style>
+}
