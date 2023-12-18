@@ -11,7 +11,7 @@ body {
     .inner-element { 
         max-width: 800px; 
         margin: 0 auto; }
-    .button { 
+    .my button { 
         background-color: #3AC9D8; 
         padding: 10px 20px; 
         border: none; 
