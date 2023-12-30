@@ -57,8 +57,8 @@ p {
   font-size: 24px;
 }
 .linkA {
- color: #000000;
   font-weight: bold;
+  text-decoration: underline;
 }
 button {
   background-color: #3AC9D8;
