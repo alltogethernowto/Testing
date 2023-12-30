@@ -56,12 +56,10 @@ h3 {
 p {
   font-size: 24px;
 }
-
-a {
-  color: #000000;
+.linkA {
+ color: #000000;
   font-weight: bold;
 }
-
 button {
   background-color: #3AC9D8;
   padding: 10px 20px;
@@ -101,6 +99,8 @@ button:hover {
     display: block;
     margin: 5px auto;
   }
-
+  a {
+    text-decoration: none !important;
+  }
 
 }
