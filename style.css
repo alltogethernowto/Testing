@@ -1,0 +1,75 @@
+body {
+  margin: 0px;
+}
+.outer-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;}
+.inner-element {max-width: 1000px;margin: 0 auto;}
+h1 {font-size: 38px;text-align: center;}
+h2 {font-size: 32px;text-align: center;}
+h3{font-size: 28px;text-align: center;}
+p {font-size: 24px;text-align: left;}
+a{font-weight: bold;}
+li {font-size: 20px;padding: 10px;}
+a { text-decoration: none !important; }
+a:visited {color: rgb(0, 38, 255);}
+  a:hover {color: rgb(100, 219, 255);}
+  .image-container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 400px;
+    max-width: 100%;}
+@media screen and (max-width: 600px) {
+    .centered-image {height: auto;}
+}
+.navbar {
+  background: rgb(42,29,254);
+  background: -moz-radial-gradient(circle, rgba(42,29,254,1) 0%, rgba(0,212,255,1) 77%);
+  background: -webkit-radial-gradient(circle, rgba(42,29,254,1) 0%, rgba(0,212,255,1) 77%);
+  background: radial-gradient(circle, rgba(42,29,254,1) 0%, rgba(0,212,255,1) 77%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a1dfe",endColorstr="#00d4ff",GradientType=1);
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;}
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 26px;
+  margin: 0 10px;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+.navbar a:hover {
+  background: rgb(42,29,254);
+  background: -moz-radial-gradient(circle, rgba(42,29,254,1) 0%, rgba(0,212,255,1) 77%);
+  background: -webkit-radial-gradient(circle, rgba(42,29,254,1) 0%, rgba(0,212,255,1) 77%);
+  background: radial-gradient(circle, rgba(42,29,254,1) 0%, rgba(0,212,255,1) 77%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a1dfe",endColorstr="#00d4ff",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a3ffff",endColorstr="#00d4ff",GradientType=1);
+  border-color: white;
+}
+.navbar2 {
+  background: rgb(29,192,254);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
